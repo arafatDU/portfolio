@@ -1,0 +1,23 @@
+name: Update README with Latest Posts
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'    # runs weekly at midnight UTC on Sunday
+  workflow_dispatch:      # also allow manual runs
+
+
+permissions:
+  contents: write        # allow editing the README
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README with Medium posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: 'https://medium.com/feed/@arafatDU'   # Your Medium RSS feed
+          comment_tag_name: BLOG-POST-LIST
+          commit_message: 'chore: update README with latest blog posts'
