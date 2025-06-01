@@ -25,7 +25,7 @@
 
 ### Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [A Scalable Approach to FastAPI Projects with PostgreSQL, Alembic, Pytest, and Docker Using uv](https://medium.com/@arafatDU/a-scalable-approach-to-fastapi-projects-with-postgresql-alembic-pytest-and-docker-using-uv-78ebf6f7fb9a?source=rss-995e49a09f86------2)
+- [A Scalable Approach to FastAPI Projects with PostgreSQL, Alembic, Pytest, and Docker Using uv](https://blog.devops.dev/a-scalable-approach-to-fastapi-projects-with-postgresql-alembic-pytest-and-docker-using-uv-78ebf6f7fb9a?source=rss-995e49a09f86------2)
 - [Mastering GitHub Actions: Deploy React App to GitHub Pages, Auto-Update README, and Automate…](https://medium.com/@arafatDU/mastering-github-actions-deploy-react-app-to-github-pages-auto-update-readme-and-automate-9818dad18c5b?source=rss-995e49a09f86------2)
 - [Mastering React App Testing with Vitest and React Testing Library](https://medium.com/@arafatDU/mastering-react-app-testing-with-vitest-and-react-testing-library-7e5b6d1ec88c?source=rss-995e49a09f86------2)
 <!-- BLOG-POST-LIST:END -->
